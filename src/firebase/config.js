@@ -2,17 +2,17 @@ import * as firebase from 'firebase/app';
 import 'firebase/storage';
 import 'firebase/firestore';
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCQmoy8_-ZbN24cVvqZaVtIsseuVqZQHDE",
-  authDomain: "hosting-9fb46.firebaseapp.com",
-  databaseURL: "https://hosting-9fb46.firebaseio.com",
-  projectId: "hosting-9fb46",
-  storageBucket: "hosting-9fb46.appspot.com",
-  messagingSenderId: "743360931289",
-  appId: "1:743360931289:web:2c57e074367343dbf265c8",
-  measurementId: "G-M83WVNWF8L"
+// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyCep9TOC351fZVWYF4ML5jJRN-FZi0NWJA",
+  authDomain: "updated-watergram.firebaseapp.com",
+  databaseURL: "https://updated-watergram.firebaseio.com",
+  projectId: "updated-watergram",
+  storageBucket: "updated-watergram.appspot.com",
+  messagingSenderId: "331728249491",
+  appId: "1:331728249491:web:e35147f6d5256ed7f8a366"
 };
-
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 
 const projectStorage = firebase.storage();
