@@ -4,13 +4,13 @@ import 'firebase/firestore';
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyBXAnO3TyaSLgE_S_vSuCb5sGaNQM73m-Y",
-  authDomain: "updatedwatergramseptember.firebaseapp.com",
-  databaseURL: "https://updatedwatergramseptember.firebaseio.com",
-  projectId: "updatedwatergramseptember",
-  storageBucket: "updatedwatergramseptember.appspot.com",
-  messagingSenderId: "123639327463",
-  appId: "1:123639327463:web:31a66b0e38ebceed4d5042"
+  apiKey: "AIzaSyCep9TOC351fZVWYF4ML5jJRN-FZi0NWJA",
+  authDomain: "updated-watergram.firebaseapp.com",
+  databaseURL: "https://updated-watergram.firebaseio.com",
+  projectId: "updated-watergram",
+  storageBucket: "updated-watergram.appspot.com",
+  messagingSenderId: "331728249491",
+  appId: "1:331728249491:web:e35147f6d5256ed7f8a366"
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
